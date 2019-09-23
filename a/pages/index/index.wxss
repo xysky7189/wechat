@@ -1,0 +1,53 @@
+swiper-item image {
+  width: 750rpx;
+  height: 320rpx
+}
+
+page {
+  background-color: #F0F0F0;
+}
+
+swiper {
+  height: 320rpx;
+}
+
+.title {
+  padding: 30rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: #3C3C3C;
+}
+
+.item image {
+  width: 750rpx;
+  height: 320rpx;
+  vertical-align: middle;
+}
+
+.item .info {
+  height: 150rpx;
+  padding: 16rpx 130rpx 16rpx 30rpx;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.item .name {
+  font-size: 30rpx;
+  color: #3C3C3C;
+}
+
+.item .extra {
+  font-size: 22rpx;
+  color: #B4B4B4;
+  position: absolute;
+  bottom: 16rpx;
+}
+
+.item .status {
+  font-size: 30rpx;
+  color: #FE6249;
+  position: absolute;
+  top: 13rpx;
+  right: 30rpx;
+}

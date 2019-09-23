@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/center/index",
+    "pages/cards/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#262626",
+    "navigationBarTitleText": "游乐园",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#feca49",
+    "color": "#d78809",
+    "selectedColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "icons/home-default.png",
+        "selectedIconPath": "icons/home-active.png",
+        "test": "首页"
+      },
+      {
+        "pagePath": "pages/cards/index",
+        "iconPath": "icons/cards-default.png",
+        "selectedIconPath": "icons/cards-active.png",
+        "test": "卡券"
+      },
+      {
+        "pagePath": "pages/center/index",
+        "iconPath": "icons/face-default.png",
+        "selectedIconPath": "icons/face-active.png",
+        "test": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
